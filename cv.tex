@@ -54,6 +54,9 @@
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
 \titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
 
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+
 \begin{document}
 
 \pagestyle{empty} % Removes page numbering
@@ -178,9 +181,10 @@
 \section{Профессиональные навыки}
 
 \begin{tabular}{rl}
-    Продвинутые знания:& веб-разработка (HTML5, CSS3, Javascript, SASS, jQuery,
-    Bootstrap, \\&Handlebars, MODX, Drupal, Plone), \\&анализ данных (R, Python), 
-    \\&работа с открытыми данными (web-API, scraping, CKAN), \\&системный анализ (UML), \\&прикладное программирование, работа в IDE
+    Продвинутые знания:& \tabitem веб-разработка (HTML5, CSS3, Javascript, SASS, jQuery,
+    Bootstrap, \\&Handlebars, MODX, Drupal, Plone), \\& \tabitem анализ данных (R, Python), 
+    \\& \tabitem работа с открытыми данными (web-API, scraping, CKAN), \\& \tabitem системный
+    анализ (UML), \\& \tabitem прикладное программирование, работа в IDE
     (vim, tmux, gdb).\\
 \multicolumn{2}{c}{} \\
 Базовые знания: & основы управления IT-проектами, Linux, MySQL, PHP, Java, C++, {\fb \LaTeX}\\
