@@ -32,7 +32,7 @@
 % Linux Libertine in the next line can be replaced with any 
 % OpenType or TrueType font that supports the Cyrillic script.
 
-\newfontfamily\russianfont[Script=Cyrillic]{Carlito}
+\newfontfamily\englishfont[Script=Cyrillic]{Carlito}
 
 
 \usepackage{fontspec} % For loading fonts
@@ -57,6 +57,8 @@
 \usepackage{booktabs}% http://ctan.org/pkg/booktabs
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 
+\usepackage[none]{hyphenat}
+
 \begin{document}
 
 \pagestyle{empty} % Removes page numbering
@@ -75,10 +77,10 @@
     \textsc{Date of Birth:} & 28 January 1992 \\
     \textsc{Address:} &  37 Bld 2 Shosse Revolutsii, Saint Petersburg, Russia \\
     \textsc{Phone:} & +7 911 705-00-13\\
-    \textsc{EMAIL:} &
+    \textsc{Email:} &
     \href{mailto:dmitry.velikij@gmail.com}{dmitry.velikij@gmail.com}\\
     \textsc{Portfolio website} &
-    \href{http://velikiy.tech}{http://velikiy.tech}
+    \href{http://velikiy.tech/en/}{http://velikiy.tech/en/}
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -94,9 +96,9 @@
     \textsc{February 2016 - Current} & Web-developer at Chaika Telekom Peterburg\\
     & \footnotesize{Frontend-development (Mobile+Desktop): HTML, Sass, JS, jQuery,
         Bootstrap, Gulp, Bower, Yeoman, BEM; UI Kit/Styleguide programming; 
-        integrating HTML templates and CSS themes into CMS: 1C Bitrix, Wordpress; 
+        integrating HTML templates and CSS themes \protect\linebreak into CMS: 1C Bitrix, Wordpress; 
         enabling content editing for end user; setting up Google Analytics and
-        Yandex Metrika goals; implementation of feedback forms; PHP-programming}\\
+        Yandex Metrika goals; implementation of feedback forms; PHP programming}\\
 \multicolumn{2}{c}{} \\
     \textsc{September 2015-January 2016} & Web developer at ColdCrystal.ru studio \\
     & \footnotesize{Front-end development (HTML, CSS, JS, Bootstrap), content
@@ -104,7 +106,7 @@ management (MODX), management (communications with clients, making business
 proposals)}\\
 \multicolumn{2}{c}{} \\
     \textsc{November 2014-June 2015} & Engineer at Department of State
-Information Systems Management, ITMO university \\
+Information Systems Management, \protect\linebreak ITMO university \\
     & \footnotesize{System administration of Linux-based information systems,
         working with open data (CKAN), restructuring of Department's documents archive,
         editing conference proceedings}\\
@@ -115,9 +117,10 @@ Information Systems Management, ITMO university \\
 
 %------------------------------------------------
 
-\textsc{August 2013} & Internship at Committee for Economic Policy and Strategic Planning of St. Petersburg \\
+\textsc{August 2013} & Internship at Committee for Economic Policy and Strategic
+Planning \protect\linebreak of St. Petersburg \\
 & \footnotesize{ Help with drafting documents such as plans and forecasts of
-economic and social development of St. Petersburg, including those related to
+economic and social development \protect\linebreak of St. Petersburg, including those related to
 the Presidential Decrees of May 2012 }
 \end{tabular}
 
@@ -133,10 +136,9 @@ the Presidential Decrees of May 2012 }
         & specialty: \small\emph{"State Information Systems Management"}
 \medskip
 \\
-& Thesis: "Decision support for development of urban areas 
+& Thesis: "Decision support for development of urban areas based on the example
 \\&
-based on the example of counteracting the spread 
-\\&
+ of counteracting the spread 
 of drug addiction in St. Petersburg" | \small Advisor:  Prof.
 \textsc{Zakharov} Yuri Nikitich
 \\
@@ -156,12 +158,11 @@ of drug addiction in St. Petersburg" | \small Advisor:  Prof.
 \section{Scholarships and Certificates}
 
 \begin{tabular}{rl}
-    \textsc{November} 2014& Statement of Accomplishment with Distincttion for
-    completing Web Application Architectures course
-     \\&from Coursera\\
+    \textsc{November} 2014& Statement of Accomplishment with Distinction for
+    completing Web Application \\&Architectures course from Coursera\\
 \multicolumn{2}{c}{} \\
     \textsc{September} 2008-January 2010& Scholarship program "Talented Youth of
-Russia" \\&"Russian Standard" Charitable Foundation\\
+Russia" \\&from "Russian Standard" Charitable Foundation\\
 \multicolumn{2}{c}{} \\
     \textsc{March} 2009& Cambridge English: First Certificate, "B" grade
 \\
@@ -195,7 +196,7 @@ Russia" \\&"Russian Standard" Charitable Foundation\\
     systems analysis (UML), \\& \tabitem applied programming, using IDE
     (vim, tmux, gdb).\\
 \multicolumn{2}{c}{} \\
-Basic Knowledge: & basics of IT project management, Linux, MySQL, PHP, Adobe
+Basic Knowledge: & basics of IT project management, AngularJS, Linux, MySQL, PHP, Adobe
 Photoshop, \\&Java, C++, {\fb \LaTeX}\\
 \end{tabular}
 
